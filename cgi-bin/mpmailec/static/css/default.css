@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* --------------------------------------------------------------- */
+#mp-head {
+	margin: 0 1em 0 1em;
+	width: 700px;
+}
+#mp-head h1 {
+	margin: 0;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, "メイリオ", "ＭＳ Ｐゴシック", arial, helvetica, sans-serif;
+	font-size: medium;
+	color: #ffffff;
+	background-image: url("../imgs/menubg.png");
+	height: 25px;
+	line-height: 25px;
+	font-weight: normal;
+	padding-left: 1em;
+}
+
+/* --------------------------------------------------------------- */
+#mp-main {
+	margin: 0;
+	padding: 0;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, "メイリオ", "ＭＳ Ｐゴシック", arial, helvetica, sans-serif;
+	color: #4c4c4c;
+	font-size: small;
+	margin: 1em;
+	width: 700px;
+}
+#mp-main p,li,dt,dl {
+	line-height:1.6;
+}
+#mp-main p {
+	margin-top: 0em;
+	margin-bottom: 0.5em;
+}
+#mp-main a:hover {
+	font-size: small;
+	color:#dd8d2a;
+	text-decoration: underline;
+}
+#mp-main a {
+	font-size: small;
+	color:#4c4c4c;
+	text-decoration: none;
+}
+#mp-main input.text,input.password,textarea,select {
+	padding:0.1em;
+	font-size: small;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, "メイリオ", "ＭＳ Ｐゴシック", arial, helvetica, sans-serif;
+	background-color: #fdfdfd;
+	background-repeat: repeat-x;
+	border: 1px solid #abadb3;
+}
+/* for browsers except IE6  */
+#mp-main input[type="text"],input[type="password"],textarea[name],select[name] {
+	background-image: url("../imgs/textbox_shadow.png");
+}
+/* */
+#mp-main input.submit, input.reset, button {
+	font-size: small;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, "メイリオ", "ＭＳ Ｐゴシック", arial, helvetica, sans-serif;
+	overflow: visible;
+	padding: 0em 0.5em 0em 0.5em;
+	height: 2.2em;
+}
+#mp-main select {
+	font-size: small;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, "メイリオ", "ＭＳ Ｐゴシック", arial, helvetica, sans-serif;
+}
+#mp-main option {
+	padding-right: 1em;
+}
+#mp-main option[selected="selected"] {
+	background-color: #eeeeee;
+	border-top: 1px solid #bbbbbb;
+	border-bottom: 1px solid #bbbbbb;
+}
+#mp-main img {
+	border: 0px;
+}
+#mp-main table {
+	margin-bottom: 1em;
+}
+#mp-main div.fieldset {
+	padding: 0.5em;
+	border: 1px solid #6392b1;
+	margin-bottom: 1em;
+}
+#mp-main div.fieldset dl {
+	padding:0;
+}
+#mp-main div.fieldset dt {
+	color: #35556b;
+	background-image: url("../imgs/form_item.png");
+	background-repeat: no-repeat;
+	height: 24px;
+	line-height: 24px;
+	margin: 0.5em;
+	padding-left: 28px;
+	padding-top: 1px;
+}
+#mp-main div.fieldset dt span.optional {
+	background-image: url("../imgs/optional.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-right: 65px;
+}
+#mp-main div.fieldset dt span.required {
+	background-image: url("../imgs/required.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-right: 65px;
+}
+#mp-main div.fieldset dd {
+	margin: 0.5em;
+	padding-left: 1em;
+	padding-bottom: 1em;
+}
+#mp-main div.fieldset dd.delimit {
+	border-bottom: 1px dotted #6392b1;
+}
+#mp-main div.fieldset span.err {
+	color: #880000;
+}
+#mp-main div.fieldset input.text.err {
+	background-color: #fff8f8;
+	border: 1px solid #aa6666;
+}
+#mp-main div.fieldset input.radio.err {
+	background-color: #fff8f8;
+	border: 1px solid #aa6666;
+}
+#mp-main div.fieldset input.checkbox.err {
+	background-color: #fff8f8;
+	border: 1px solid #aa6666;
+}
+#mp-main div.fieldset textarea.err {
+	background-color: #fff8f8;
+	border: 1px solid #aa6666;
+}
+#mp-main div.fieldset select.err {
+	background-color: #fff8f8;
+	border: 1px solid #aa6666;
+}
+#mp-main div.errs {
+	background-image: url("../imgs/warning.png");
+	background-repeat: no-repeat;
+	color: #880000;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding: 0px 0px 0px 30px;
+	min-height: 32px;
+	height: auto !important;
+	height: 32px;
+}
+#mp-main span.radioelement {
+	margin-right: 1.8em;
+	color: black;
+}
+#mp-main span.checkelement {
+	margin-right: 1.8em;
+	color: black;
+}

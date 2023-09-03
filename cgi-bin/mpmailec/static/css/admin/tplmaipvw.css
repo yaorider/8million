@@ -1,0 +1,23 @@
+@charset "utf-8";
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, "メイリオ", "ＭＳ Ｐゴシック", arial, helvetica, sans-serif;
+	color: #4c4c4c;
+	font-size: small;
+	padding-bottom: 1em;
+}
+#headers {
+	background-color: #efefef;
+	border-bottom: 1px solid #888888;
+	padding: 0.5em 1em 0.5em 1em;
+}
+#headers table td {
+	border: 0;
+}
+#mailbody {
+	padding: 1em;
+	white-space: pre;
+}

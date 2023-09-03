@@ -1,0 +1,286 @@
+@charset "utf-8";
+/* --------------------------------------------------------------- */
+* {
+	margin:0;
+	padding:0;
+}
+/* --------------------------------------------------------------- */
+body {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, "メイリオ", Verdana, Arial, Helvetica, "ＭＳ Ｐゴシック", sans-serif;
+	color: #4c4c4c;
+	font-size: small;
+	padding-bottom: 1em;
+}
+/* for IE6 */
+* html body {
+	width: 97%;
+}
+#main {
+	margin: 1em;
+	width: 700px;
+}
+p,li,dt,dl {
+	line-height:1.6;
+}
+p {
+	margin-bottom: 1em;
+}
+h1 {
+	font-size: small;
+	color: #35556b;
+	font-weight: normal;
+	display: block;
+	background-image: url("../../imgs/titlebg.png");
+	background-repeat: repeat-x;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 1em;
+}
+h1.blue {
+	color: #ffffff;
+	background-image: url("../../imgs/menubg.png");
+	border-bottom: 1px solid #174774;
+	height: 25px;
+	line-height: 25px;
+}
+h2 {
+	font-size: small;
+	color: #35556B;
+	padding-left: 24px;
+	padding-top: 3px;
+	margin-bottom: 8px;
+	background-image: url("../../imgs/form_item.png");
+	background-repeat: no-repeat;
+}
+/* for IE6 */
+* html body h2 {
+	padding-top: 7px;
+}
+a:hover {
+	font-size: small;
+	color:#dd8d2a;
+	text-decoration: underline;
+}
+a {
+	font-size: small;
+	color:#4c4c4c;
+	text-decoration: none;
+}
+input.text,input.password,textarea,select {
+	padding:1px;
+	font-size: small;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, "メイリオ", Verdana, Arial, Helvetica, "ＭＳ Ｐゴシック", sans-serif;
+	background-color: #fdfdfd;
+	background-repeat: repeat-x;
+	border: 1px solid #abadb3;
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+}
+select {
+	padding: 0;
+}
+option {
+	padding-left: 3px;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+/* for browsers except IE6  */
+input[type="text"],input[type="password"],textarea[name],select[name] {
+	background-image: url("../../imgs/textbox_shadow.png");
+}
+/* */
+input.submit, input.reset, button {
+	font-size: small;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, "メイリオ", Verdana, Arial, Helvetica, "ＭＳ Ｐゴシック", sans-serif;
+	overflow: visible;
+	padding: 0em 0.5em 0em 0.5em;
+	height: 2.2em;
+}
+select {
+	font-size: small;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, "メイリオ", Verdana, Arial, Helvetica, "ＭＳ Ｐゴシック", sans-serif;
+}
+option {
+	padding-right: 1em;
+}
+option[selected="selected"] {
+	background-color: #eeeeee;
+	border-top: 1px solid #bbbbbb;
+	border-bottom: 1px solid #bbbbbb;
+}
+img {
+	border: 0px;
+	vertical-align: middle;
+}
+table {
+	margin-bottom: 1em;
+}
+form fieldset {
+	padding: 1em 1em 1em 1em;
+	border: 1px solid #6392b1;
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+}
+form fieldset legend {
+	color: #35556b;
+	border-left: 5px solid #6392b1;
+	border-right: 5px solid #6392b1;
+	padding: 0em 0.5em 0em 0.5em;
+}
+form fieldset dl {
+	padding-top: 0.5em;
+	padding-bottom: 1em;
+	border-bottom: 1px dotted #6392b1;
+}
+form fieldset dl.last {
+	border-bottom: none;
+}
+form fieldset dt {
+	color: #35556b;
+	background-image: url("../../imgs/form_item.png");
+	background-repeat: no-repeat;
+	height: 24px;
+	line-height: 24px;
+	padding-left: 26px;
+}
+form fieldset dt label.optional {
+	background-image: url("../../imgs/optional.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-right: 65px;
+}
+form fieldset dt label.required {
+	background-image: url("../../imgs/required.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-right: 65px;
+}
+form fieldset dd {
+	padding-top: 0.5em;
+	padding-left: 1em;
+}
+form fieldset dd table td {
+	border: 0;
+}
+form fieldset input.text,input.password,textarea {
+	width: 97%;
+}
+form fieldset dd ul.note {
+	font-size: 0.85em;
+	margin: 0.5em 0em 0.7em 2.5em;
+}
+form fieldset label.err {
+	color: #880000;
+}
+form fieldset input.text.err {
+	background-color: #fff8f8;
+	border: 1px solid #aa6666;
+}
+form fieldset input.radio.err {
+	background-color: #fff8f8;
+	border: 1px solid #aa6666;
+}
+form fieldset input.checkbox.err {
+	background-color: #fff8f8;
+	border: 1px solid #aa6666;
+}
+form fieldset textarea.err {
+	background-color: #fff8f8;
+	border: 1px solid #aa6666;
+}
+form fieldset select.err {
+	background-color: #fff8f8;
+	border: 1px solid #aa6666;
+}
+/* --------------------------------------------------------------- */
+.errs {
+	background-image: url("../../imgs/warning.png");
+	background-repeat: no-repeat;
+	color: #880000;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding: 0px 0px 0px 52px;
+	min-height: 32px;
+	height: auto !important;
+	height: 32px;
+}
+.warning {
+	color: #880000;
+}
+span.input_length_err {
+	color: #dd0000;
+}
+div.story {
+	padding-left: 2em;
+}
+/* --------------------------------------------------------------- */
+table.tbl1 {
+	border-collapse: collapse;
+	border-top: 1px solid #35556b;
+	border-bottom: 1px solid #35556b;
+}
+table.tbl1 th {
+	text-align: left;
+	border-bottom: 1px dotted #35556b;
+	padding: 0.3em 0.5em 0.3em 0.5em;
+	empty-cells: show;
+	white-space: nowrap;
+}
+table.tbl1 td {
+	text-align: left;
+	border-bottom: 1px dotted #35556b;
+	padding: 0.3em 0.5em 0.3em 0.5em;
+	empty-cells: show;
+}
+/* --------------------------------------------------------------- */
+table.tbl2 {
+	border-collapse: collapse;
+	border-bottom: 1px solid #35556b;
+	width: 100%;
+}
+table.tbl2 caption {
+	font-weight: bold;
+}
+table.tbl2 thead td {
+	background-image: url("../../imgs/titlebg.png");
+	background-repeat: repeat-x;
+	height: 30px;
+	line-height: 30px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border: 0;
+}
+table.tbl2 tbody td {
+	border-bottom: 1px solid #35556b;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+	empty-cells: show;
+	white-space: normal;
+}
+/* --------------------------------------------------------------- */
+table.noborder {
+	border-collapse: collapse !important;
+	border: 0 !important;
+	margin: 0 !important;
+}
+table.noborder th {
+	border: 0 !important;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+table.noborder td {
+	border: 0 !important;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+	white-space: normal;
+}
+/* --------------------------------------------------------------- */
+code {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, "メイリオ", Verdana, Arial, Helvetica, "ＭＳ Ｐゴシック", sans-serif;
+	color: #993333;
+}
+/* --------------------------------------------------------------- */
+iframe.infoframe {
+	border: 0;
+	width: 100%;
+	height: 200px;
+}

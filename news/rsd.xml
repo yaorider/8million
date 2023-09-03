@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rsd version="1.0" xmlns="http://archipelago.phrasewise.com/rsd">
+<service>
+<engineName>Movable Type Pro</engineName>
+<engineLink>http://www.sixapart.com/movabletype/</engineLink>
+<homePageLink>https://www.8million.co.jp/news/</homePageLink>
+<apis>
+<api name="MetaWeblog" preferred="true" apiLink="https://mt.schwarzekatz.net/mt-xmlrpc.cgi" blogID="37" />
+<api name="MovableType" preferred="false" apiLink="https://mt.schwarzekatz.net/mt-xmlrpc.cgi" blogID="37" />
+<api name="Blogger" preferred="false" apiLink="https://mt.schwarzekatz.net/mt-xmlrpc.cgi" blogID="37" />
+<api name="Atom" preferred="false" apiLink="https://mt.schwarzekatz.net/mt-atom.cgi/weblog" blogID="37" />
+</apis>
+</service>
+</rsd>

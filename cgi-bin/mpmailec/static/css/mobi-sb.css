@@ -1,0 +1,73 @@
+/* --------------------------------------------------------------- */
+h1 {
+	background-color: #35556b;
+	margin-bottom: 0.5em;
+	color: #ffffff;
+	font-size: medium;
+}
+/* --------------------------------------------------------------- */
+img {
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+}
+p {
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+div.fieldset {
+	border-top-width: 2px;
+	border-top-color: #6392b1;
+	border-top-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #6392b1;
+	border-bottom-style: solid;
+}
+dt {
+	color: #35556b;
+	background-color: #eeeeee;
+	border-top-width: 1px;
+	border-top-color: #35556b;
+	border-top-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #35556b;
+	border-bottom-style: solid;
+	font-weight: bold;
+}
+dd {
+	margin-left:0px;
+	margin-bottom: 0.5em;
+	padding-left:0px;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+span.err {
+	color: #ff0000;
+}
+/* --------------------------------------------------------------- */
+div.errs {
+	color: #ff0000;
+	border-top-width: 1px;
+	border-top-color: #aa0000;
+	border-top-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #aa0000;
+	border-bottom-style: solid;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	background-color: #ffeeee;
+}
+div.errs p {
+	font-weight: bold;
+}
+span.radioelement {
+	margin-right: 1em;
+}
+span.checkelement {
+	margin-right: 1em;
+}
+/* --------------------------------------------------------------- */
+.center {
+	text-align: center;
+}
